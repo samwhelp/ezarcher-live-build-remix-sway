@@ -8,12 +8,52 @@
 ##
 
 hyprpaper &
+#~/.azotebg &
+#wf-background &
+#pcmanfm-qt --desktop --daemon-mode &
 
 
 
 
 ##
-## ## Panel
+## ## Polkit
+##
+
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+#/usr/libexec/xfce-polkit &
+
+
+
+
+##
+## ## wf-shell
+##
+
+#wf-panel &
+
+
+
+
+##
+## ## waybar
 ##
 
 waybar &
+
+
+
+
+##
+## ## nm-applet
+##
+
+nm-applet &
+
+
+
+
+##
+## ## fcitx5
+##
+
+fcitx5 &
