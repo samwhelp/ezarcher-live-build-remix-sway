@@ -27,4 +27,5 @@ file_permissions=(
   ["/usr/local/bin/grubinstall.sh"]="0:0:755"
   ["/usr/local/bin/ezarch.bios"]="0:0:755"
   ["/usr/local/bin/ezarch.uefi"]="0:0:755"
+  ["/etc/skel/.config/sway/autostart"]="0:0:755"
 )
